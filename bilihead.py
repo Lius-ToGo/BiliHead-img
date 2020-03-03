@@ -17,7 +17,6 @@ def getUrl():
 
     # print(ele)
 
-
     没有得到的URL = ele.get('style')
 
     url = 没有得到的URL.strip("background-image:url(")
